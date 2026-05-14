@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>HomeProof Support</title>
+  <meta name="description" content="Support page for HomeProof." />
+  <style>
+    :root {
+      --bg: #f4f7fb;
+      --card: #ffffff;
+      --text: #0f172a;
+      --muted: #475569;
+      --brand: #0ea5e9;
+      --brand-dark: #0369a1;
+      --border: #dbe5ef;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      color: var(--text);
+      background:
+        radial-gradient(circle at 85% -10%, #bae6fd 0%, rgba(186, 230, 253, 0) 45%),
+        radial-gradient(circle at -10% 110%, #c7d2fe 0%, rgba(199, 210, 254, 0) 40%),
+        var(--bg);
+      line-height: 1.5;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 24px;
+    }
+
+    .hero {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 28px;
+      box-shadow: 0 10px 30px rgba(2, 6, 23, 0.06);
+      margin-bottom: 20px;
+    }
+
+    h1 { margin: 0 0 8px; font-size: 2rem; }
+    h2 { margin: 0 0 10px; font-size: 1.2rem; }
+    p { margin: 0 0 10px; }
+
+    .muted { color: var(--muted); }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 16px;
+    }
+
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 18px;
+    }
+
+    .btn {
+      display: inline-block;
+      text-decoration: none;
+      background: var(--brand);
+      color: #fff;
+      padding: 10px 14px;
+      border-radius: 10px;
+      font-weight: 600;
+      margin-top: 8px;
+    }
+
+    .btn:hover { background: var(--brand-dark); }
+
+    ul {
+      margin: 8px 0 0 18px;
+      padding: 0;
+    }
+
+    code {
+      background: #e2e8f0;
+      padding: 1px 5px;
+      border-radius: 6px;
+      font-size: 0.9em;
+    }
+
+    footer {
+      margin-top: 18px;
+      color: var(--muted);
+      font-size: 0.92rem;
+      text-align: center;
+    }
+
+    @media (max-width: 760px) {
+      .grid { grid-template-columns: 1fr; }
+      .hero { padding: 20px; }
+      h1 { font-size: 1.7rem; }
+    }
+  </style>
+</head>
+<body>
+  <main class="container">
+    <section class="hero">
+      <h1>HomeProof Support</h1>
+      <p class="muted">Need help with HomeProof? We are here to help with setup, account access, syncing, exports, subscriptions, and reminders.</p>
+      <p><strong>Support email:</strong> <a href="mailto:andycollg@gmail.com">andycollg@gmail.com</a></p>
+      <p><strong>Privacy policy:</strong> <a href="https://andygerman1975.github.io/andycollg.github.io/homeproof-privacy-policy.html">View policy</a></p>
+      <a class="btn" href="mailto:andycollg@gmail.com?subject=HomeProof%20Support%20Request">Contact Support</a>
+      <a class="btn" href="homeproof-support-request-template.txt" download>Download Support Template</a>
+    </section>
+
+    <section class="grid">
+      <article class="card">
+        <h2>Before You Contact Us</h2>
+        <p class="muted">Including these details helps us solve your issue faster:</p>
+        <ul>
+          <li>Device model and iOS version</li>
+          <li>HomeProof app version</li>
+          <li>What you expected vs what happened</li>
+          <li>Screenshots (if possible)</li>
+        </ul>
+      </article>
+
+      <article class="card">
+        <h2>Common Issues</h2>
+        <ul>
+          <li><strong>Calendar reminders not appearing:</strong> enable Calendar access in iOS Settings for HomeProof.</li>
+          <li><strong>iCloud restore:</strong> keep the old device online to allow CloudKit sync to complete.</li>
+          <li><strong>Subscription not recognized:</strong> tap <em>Restore Purchases</em> in app settings.</li>
+        </ul>
+      </article>
+
+      <article class="card">
+        <h2>Response Times</h2>
+        <p>We typically respond within <strong>1-2 business days</strong>.</p>
+        <p class="muted">Please avoid sending sensitive personal or payment information by email.</p>
+      </article>
+
+      <article class="card">
+        <h2>Troubleshooting Steps</h2>
+        <ul>
+          <li>Close and reopen the app.</li>
+          <li>Restart your device.</li>
+          <li>Check internet connection and iCloud status.</li>
+          <li>Update HomeProof to the latest version.</li>
+        </ul>
+      </article>
+    </section>
+
+    <footer>
+      <p>Last updated: 14 May 2026</p>
+      <p>HomeProof Support</p>
+    </footer>
+  </main>
+</body>
+</html>
